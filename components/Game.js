@@ -118,7 +118,7 @@ AFRAME.registerComponent("game", {
 
     var element2 = document.querySelector("#Score");
     var score = element2.getAttribute("text").value;
-    var finalmsg = "Game Over " + score;
+    var finalmsg = "Game Over! You Scored: " + score + " points!";
 
     element.setAttribute("text", {
       value: finalmsg,
